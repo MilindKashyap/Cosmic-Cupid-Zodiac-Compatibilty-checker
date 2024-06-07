@@ -1,0 +1,105 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url('/photos/main\ bg3\ \(6\).jpg'); /* Replace 'path/to/your/image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    color: #ffffff;
+    font-size: larger;
+
+  }
+  
+  header {
+    background-color: #393d88;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fffc98;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid black; /* Add permanent black border */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: bold; /* Make the font bold */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+}
+  
+  nav ul li a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    border-color: #ffffff; 
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+    transform: scale(1.1);/* Change border color on hover to black */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 40px; /* Adjust the distance from the top as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #393d88;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+
+  }
+  

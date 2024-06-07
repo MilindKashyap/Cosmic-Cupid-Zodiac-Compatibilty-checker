@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compatibility Result - Cosmic Cupid</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="static/logo-no-background.png" alt="Cosmic Cupid Logo">
+    </div>
+    <h1>Cosmic Cupid</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('test') }}">Compatibility Analysis</a></li>
+        <li><a href="{{ url_for('profile') }}">Zodiac-pedia</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <center>
+    <section class="compatibility-result">
+      <h2>Compatibility Result</h2>
+      <div class="compatibility-info">
+        <p><strong>Your Sign:</strong> {{ your_zodiac }}</p>
+        <p><strong>Partner's Sign:</strong> {{ partner_zodiac }}</p>
+        <p><strong>Compatibility:</strong> {{ compatibility_score }}</p>
+      </div>
+    </section>
+</center>
+  </main>
+</body>
+</html>

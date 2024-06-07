@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compatibility Analysis - Cosmic Cupid</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='test.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="{{ url_for('static', filename='logo-no-background.png') }}" alt="Cosmic Cupid Logo">
+    </div>
+    <h1>Cosmic Cupid</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('test') }}">Compatibility Analysis</a></li>
+        <li><a href="{{ url_for('profile') }}">Zodiac-pedia</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="compatibility-analysis">
+    <div class="container">
+      <form class="form-container" action="/submit" method="post">
+        <center>
+          <img src="{{ url_for('static', filename='main page.png') }}" alt="Image Description" class="form-image">
+        </center>
+        <div class="form-left">
+          <center>
+            <h2>Your Details</h2>
+          </center>
+          <br>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+          <br>
+          <label for="birthdate">Your Birthdate:</label>
+          <input type="date" id="birthdate" name="birthdate" required>
+          <br>
+          <label for="gender">Your Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+          <label for="zodiac">Your Zodiac Sign:</label>
+          <input type="text" id="zodiac" name="zodiac" required>
+        </div>
+        <div class="form-right">
+          <center>
+            <h2>Partner's Details</h2>
+          </center>
+          <label for="partner_name">Partner's Name:</label>
+          <input type="text" id="partner_name" name="partner_name" required>
+          <br>
+          <label for="partner_birthdate">Partner's Birthdate:</label>
+          <input type="date" id="partner_birthdate" name="partner_birthdate" required>
+          <br>
+          <label for="partner_gender">Partner's Gender:</label>
+          <select id="partner_gender" name="partner_gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <br>
+          <label for="partner_zodiac">Partner's Zodiac Sign:</label>
+          <input type="text" id="partner_zodiac" name="partner_zodiac" required>
+        </div>
+        <br>
+        <div class="btn-container">
+          <center>
+            <button type="submit" class="btn">Generate report</button>
+          </center>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Cosmic Cupid. All rights reserved.</p>
+  </footer>
+</body>
+</html>

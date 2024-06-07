@@ -1,0 +1,255 @@
+body {
+  background-image: url('/static/main\ bg3\ \(6\).jpg'); /* Replace 'path/to/your/image.jpg' with the path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; 
+  color: #f8f8f8;/* Remove default padding */
+  font-size: large;
+
+}
+
+
+header {
+  background-color: #393d88;
+  padding: 20px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fffc98;
+  color: #000000;
+  text-decoration: none;
+  border: 2px solid black; /* Add permanent black border */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: bold; /* Make the font bold */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #0056b3; /* Change background color on hover */
+  border-color: #ffffff; 
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+  transform: scale(1.1);/* Change border color on hover to black */
+}
+
+section {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.btn-container {
+  text-align: center; /* Center the button horizontally */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+footer {
+  background-color: #393d88;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.intro-text {
+  text-align: center;
+  padding: 50px;
+  background-color: #fffca8;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  transition: all 0.3s ease;
+}
+
+.intro-text:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.intro-image {
+  display: block;
+  margin: 0 auto 20px; /* Center the image and add some bottom margin */
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 20px; /* Optional: add rounded corners */
+}
+/* Style for the image-text sections */
+/* Style for the image-text sections */
+/* Style for the image-text sections */
+/* Style for the image-text sections */
+/* Style for the image-text sections */
+.image-text-section {
+  display: flex;
+  justify-content: space-between; /* Align images to the sides */
+  align-items: center;
+  margin-bottom: 80px; /* Increase the bottom margin */
+}
+
+/* Style for the image-text container */
+.image-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px; /* Increase the gap between the image and text */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Style for the text */
+.image-text-container .text {
+  flex: 1;
+  width: 600px ;
+  padding: 30px; /* Increase the padding */
+  border: 2px solid white; /* White border */
+  border-radius: 10px;
+  background-color: #fffca8; /* Semi-transparent white background */
+  backdrop-filter: blur(3px); /* Add blur effect to the background */
+  color: #000000;
+}
+
+/* Style for the images */
+/* Style for the images */
+.image-text-container .image img {
+  width: 550px; /* Increase the width of the images */
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+
+/* Hover effect for images */
+.image-text-container .image img:hover {
+  transform: scale(1.05); /* Scale up by 5% on hover */
+}
+
+
+
+.image {
+  flex: 1; /* Take up all available space */
+}
+
+.image img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.text {
+  flex: 1; /* Take up all available space */
+  margin-left: 20px; /* Add some space between image and text */
+}
+
+.text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.image-text-section:nth-child(even) .image {
+  order: -1; /* Reverse order for even sections */
+}
+
+/* Reverse layout for even sections */
+.image-text-section:nth-child(even) .text {
+  order: 1; /* Reverse order for even sections */
+}
+/* Reverse layout for even sections */
+.image-text-section:nth-child(even) .image,
+.image-text-section:nth-child(even) .text {
+  order: 1; /* Reverse order for even sections */
+}
+.image-text-section:nth-child(even) .image,
+.image-text-section:nth-child(even) .text {
+  order: 1; /* Reverse order for even sections */
+}
+.go-to-analysis-btn {
+  display: block;
+  margin: 50px; /* Center the button horizontally and add some margin */
+  padding: 30px 60px;
+  font-size: 18px;
+  font-weight: bold; /* Make the text bold */
+  background-color: #6aea6a;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Add transition effect for all properties */
+  text-decoration: none; 
+  width: 30%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* Remove underline from text */
+}
+
+.go-to-analysis-btn:hover {
+  background-color: #393d88;
+  color: #fff; /* Change text color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+  transform: scale(1.1); /* Increase size on hover */
+}
+.logo {
+  position: absolute;
+  top: 40px; /* Adjust the distance from the top as needed */
+  left: 20px; /* Adjust the distance from the left as needed */
+}
+
+.logo img {
+  width: 150px; /* Adjust the width of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+

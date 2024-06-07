@@ -1,0 +1,116 @@
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+    padding: 0;
+    background-image: url('/static/main\ bg3\ \(6\).jpg'); /* Replace 'path/to/your/image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    color: #000000;
+    font-size: large;
+
+  }
+  
+  header {
+    background-color: #393d88;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fffc98;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid black; /* Add permanent black border */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: bold; /* Make the font bold */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  }
+  
+  nav ul li a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    border-color: #ffffff; 
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+    transform: scale(1.1);/* Change border color on hover to black */
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #393d88;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .logo {
+    position: absolute;
+    top: 40px; /* Adjust the distance from the top as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  h2:hover {
+    color: #f53494; /* Change to your desired hover color */
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style-type:circle;
+    padding-left: 0;
+  }
+  li {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .section-box {
+    background-color: #fffc98;
+    padding: 20px;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transition effect */
+    color: #000000;
+  }
+  
+  /* Style for the section headings */
+  .section-box h2 {
+    margin-top: 0;
+    color: black; /* Adjust text color */
+  }
+  
+  /* Scale the section box slightly on hover */
+  .section-box:hover {
+    transform: scale(1.02);
+  }
+  

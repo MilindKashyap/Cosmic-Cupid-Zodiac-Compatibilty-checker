@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQs - Cosmic Cupid</title>
+  <script src="{{ url_for('static', filename='faq.js') }}"></script>
+  <link rel="stylesheet"  href="{{ url_for('static', filename='faq.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="static/logo-no-background.png" alt="Cosmic Cupid Logo">
+    </div>
+    <h1>Cosmic Cupid</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('test') }}">Compatibility Analysis</a></li>
+        <li><a href="{{ url_for('profile') }}">Zodiac-pedia</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+      </ul>
+    </nav>
+    </header>
+    <center>
+      <section id="faqs" class="faq-section">
+        <div class="blur-box"></div>
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <div class="faq" id="faq1">
+          <h3 onclick="toggleAnswer('faq1')">What is astrology?</h3>
+          <p class="answer">Astrology is the study of the movements and relative positions of celestial bodies interpreted as having an influence on human affairs and the natural world.</p>
+        </div>
+        <div class="faq" id="faq2">
+          <h3 onclick="toggleAnswer('faq2')">How accurate is astrological compatibility?</h3>
+          <p class="answer">Astrological compatibility provides insights into potential dynamics between individuals based on their astrological signs. While it can offer valuable insights, it's important to remember that every relationship is unique.</p>
+        </div>
+        <div class="faq" id="faq3">
+          <h3 onclick="toggleAnswer('faq3')">Can astrology predict my future?</h3>
+          <p class="answer">Astrology can offer insights into potential trends and patterns in your life, but it does not predict specific events or outcomes with certainty.</p>
+        </div>
+        <div class="faq" id="faq4">
+          <h3 onclick="toggleAnswer('faq4')">What are zodiac signs?</h3>
+          <p class="answer">Zodiac signs are twelve astrological divisions that represent different personality traits and characteristics based on the position of the sun at the time of a person's birth.</p>
+        </div>
+        <div class="faq" id="faq5">
+          <h3 onclick="toggleAnswer('faq5')">How can I find my zodiac sign?</h3>
+          <p class="answer">You can find your zodiac sign by determining your birth date and consulting a zodiac sign chart or calculator.</p>
+        </div>
+        <div class="faq" id="faq6">
+          <h3 onclick="toggleAnswer('faq6')">What is the difference between astrology and astronomy?</h3>
+          <p class="answer">Astrology is the study of the positions and movements of celestial bodies in relation to human behavior and natural events, while astronomy is the scientific study of celestial objects and phenomena.</p>
+        </div>
+        <div class="faq" id="faq7">
+          <h3 onclick="toggleAnswer('faq7')">Can zodiac signs change?</h3>
+          <p class="answer">No, zodiac signs are determined by the position of the sun at the time of a person's birth and do not change over time.</p>
+        </div>
+        <div class="faq" id="faq8">
+          <h3 onclick="toggleAnswer('faq8')">What is a horoscope?</h3>
+          <p class="answer">A horoscope is a forecast of a person's future based on the positions of celestial bodies at the time of their birth, typically presented in the form of a chart or written prediction.</p>
+        </div>
+        <div class="faq" id="faq9">
+          <h3 onclick="toggleAnswer('faq9')">How can I improve my compatibility with others?</h3>
+          <p class="answer">Improving compatibility with others involves understanding and respecting each other's differences, communicating effectively, and compromising when necessary.</p>
+        </div>
+        <div class="faq" id="faq10">
+          <h3 onclick="toggleAnswer('faq10')">Is astrology considered a science?</h3>
+          <p class="answer">While astrology has ancient roots and cultural significance, it is not considered a science by the scientific community due to its lack of empirical evidence and testable hypotheses.</p>
+        </div>
+      </section>
+</center>
+  <footer>
+    <p>&copy; 2024 Cosmic Cupid. All rights reserved.</p>
+  </footer>
+  <script src="static/faq.js"></script>
+</body>
+</html>

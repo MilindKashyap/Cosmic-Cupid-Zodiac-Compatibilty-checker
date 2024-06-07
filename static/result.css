@@ -1,0 +1,89 @@
+/* Global styles */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    margin: 0;
+    padding: 0;
+    background-image: url('/static/main\ bg3\ \(6\).jpg'); /* Replace 'path/to/your/image.jpg' with the path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center;
+  color: #ffffff;
+  font-size: large;
+  }
+  
+  header {
+    background-color: #393d88;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fffc98;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid black; /* Add permanent black border */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: bold; /* Make the font bold */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  }
+  
+  nav ul li a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    border-color: #ffffff; 
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+    transform: scale(1.1);/* Change border color on hover to black */
+  }
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #393d88;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  
+  /* Compatibility Result section */
+  .compatibility-result {
+    margin-bottom: 20px;
+  }
+  
+  .compatibility-info {
+    background-color: #141313;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .compatibility-info p {
+    margin: 10px 0;
+  }
+  
+  .compatibility-info strong {
+    font-weight: bold;
+  }
+  
+  

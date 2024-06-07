@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detailed Compatibility Profiles - Cosmic Cupid</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}" >
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="static/logo-no-background.png" alt="Cosmic Cupid Logo">
+    </div>
+    <h1>Cosmic Cupid</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('test') }}">Compatibility Analysis</a></li>
+        <li><a href="{{ url_for('profile') }}">Zodiac-pedia</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="detailed-compatibility-profiles">
+    <center>
+    <div class="blurred-box">
+      <h2>Know more about your Zodiac sign</h2>
+      <p>Select your sign to view a comprehensive analysis of your compatibility, including:</p>
+      <ul>
+        <li>Personality traits</li>
+        <li>Communication style</li>
+        <li>Compatibility challenges</li>
+      </ul>
+    </div>
+  </center>
+    
+    <br>
+    <br>
+    
+    <div class="zodiac-buttons">
+      <button type="button" onclick="window.location.href='Aries.html'">Aries</button>
+      <button type="button" onclick="window.location.href='Taurus.html'">Taurus</button>
+      <button type="button" onclick="window.location.href='Gemini.html'">Gemini</button>
+      <button type="button" onclick="window.location.href='Cancer.html'">Cancer</button>
+      <button type="button" onclick="window.location.href='Leo.html'">Leo</button>
+      <button type="button" onclick="window.location.href='Virgo.html'">Virgo</button>
+      <button type="button" onclick="window.location.href='Libra.html'">Libra</button>
+      <button type="button" onclick="window.location.href='Scorpio.html'">Scorpio</button>
+      <button type="button" onclick="window.location.href='Sagittarius.html'">Sagittarius</button>
+      <button type="button" onclick="window.location.href='Capricon.html'">Capricorn</button>
+      <button type="button" onclick="window.location.href='Aquarius.html'">Aquarius</button>
+      <button type="button" onclick="window.location.href='Pisces.html'">Pisces</button>
+    </div>
+    
+  </section>
+  
+  <br>
+  <br>
+  
+  <footer>
+    <p>&copy; 2024 Cosmic Cupid. All rights reserved.</p>
+  </footer>
+</body>
+</html>

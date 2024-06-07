@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Cupid</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="static/logo-no-background.png" alt="Cosmic Cupid Logo">
+    </div>
+    <h1>Cosmic Cupid</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('test') }}">Compatibility Analysis</a></li>
+        <li><a href="{{ url_for('profile') }}">Zodiac-pedia</a></li>
+        <li><a href="{{ url_for('about') }}">About Us</a></li>
+        <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="intro-text">
+    <img src="static/main page.png" alt="Cosmic Cupid Logo" class="intro-image">
+    <h2>Welcome to Cosmic Cupid</h2>
+    <p>Your celestial companion in the quest for cosmic compatibility and love connections written in the stars. Cosmic Cupid is your premier destination for exploring the magic of astrology and uncovering the secrets of astrological compatibility to ignite sparks and foster meaningful relationships.</p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+   <section class="image-text-section">
+    <div class="image-text-container">
+      <div class="image">
+        <img src="static/m (1).jpg" alt="Another Image">
+      </div>
+      <div class="text">
+        <h3>Finding Harmony in the Zodiac:</h3>
+        <p> At Cosmic Cupid, we believe that true harmony lies in embracing the interconnectedness of the zodiac. While each sign possesses its own distinct energy, it is through the interplay of these cosmic forces that the magic of compatibility unfolds. Whether it's the complementary dynamics of opposite signs or the harmonious resonance of compatible elements, Cosmic Cupid invites you to embark on a journey of self-discovery and interpersonal exploration. Together, let us navigate the celestial currents and unlock the secrets of cosmic harmony.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="image-text-section">
+    <div class="image-text-container">
+      <div class="text">
+        <h3>Embracing the Diversity of Zodiac Signs: </h3>
+        <p>Just as the night sky is adorned with a myriad of stars, the world of astrology encompasses a diverse array of zodiac signs, each with its own unique strengths and weaknesses. From the adventurous spirit of Sagittarius to the diplomatic charm of Libra, Cosmic Cupid celebrates the kaleidoscope of personalities that enrich our lives. Our platform provides a platform for users to explore the nuances of different zodiac signs, fostering understanding and appreciation for the diversity of human experience.</p>
+      </div>
+      <div class="image">
+        <img src="static/m (2).jpg" alt="Second Image">
+      </div>
+    </div>
+  </section>
+
+  <section class="image-text-section">
+    <div class="image-text-container">
+      <div class="image">
+        <img src="static/m (3).jpg" alt="Another Image">
+      </div>
+      <div class="text">
+        <h3>Unlocking the Mysteries of Zodiac Signs:</h3>
+        <p> At Cosmic Cupid, we believe that each individual is as unique as the stars themselves. Our platform serves as a gateway to understanding the intricate tapestry of zodiac signs, each bearing its own distinct traits and characteristics. From the fiery passion of Aries to the nurturing nature of Cancer, we delve into the depths of astrology to shed light on the essence of each sign. Whether you're a steadfast Taurus or an enigmatic Scorpio, Cosmic Cupid invites you to explore the rich tapestry of your astrological identity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-text-section">
+    <div class="image-text-container">
+      <div class="text">
+        <h3>Navigating Cosmic Compatibility:</h3>
+        <p> In the cosmic dance of love, compatibility is key. Cosmic Cupid offers a comprehensive analysis of astrological compatibility, helping you navigate the complexities of relationships with insight and clarity. Through our tailored algorithms and expert astrological guidance, we decode the celestial symphony of the stars to unveil the potential synergies and challenges between individuals. Whether you're seeking a soulmate or strengthening an existing bond, Cosmic Cupid is your compass in the journey towards cosmic connection.</p>
+      </div>
+      <div class="image">
+        <img src="static/tanabata-beautiful-love-powerpoint-background_e3894e3b62__960_540.jpg" alt="Second Image">
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <center>
+  <a href="{{ url_for('test') }}"> <class="go-to-analysis-btn">❤️ Check compatibility with your partner now ❤️</a>
+  </center>
+  
+
+  <footer>
+    <p>&copy; 2024 Cosmic Cupid. All rights reserved.</p>
+  </footer>
+</body>
+</html>
